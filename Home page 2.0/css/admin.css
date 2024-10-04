@@ -1,0 +1,84 @@
+/*Universal element select*/
+* {
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #fff;
+    min-height: 100vh;
+    width: 100%;
+}
+
+/* Admin Navigation Bar Styles */
+.admin-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #222;
+    color: #fff;
+    padding: 10px 20px;
+    
+}
+
+/* Logo Styles */
+.logo {
+    background-color: transparent;
+    color: #000;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+/* Navigation Links Styles */
+.nav-links {
+    display: flex;
+    list-style-type: none;
+}
+
+.nav-links li {
+    margin: 0 15px;
+}
+
+.nav-links a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.4s ease;
+    font-family: sans-serif;
+    font-weight: lighter;
+    font-size: 16px;
+}
+
+.nav-links a:hover {
+    color: #34E834;
+}
+
+/* Profile Icon Styles */
+.profile {
+    background-color: transparent; 
+    color: #fff;
+    padding: 10px 20px;
+    border: 1px solid #34E834;
+    font-family: sans-serif;
+    font-weight: lighter;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.profile:hover {
+    color: #000;
+    background-color: #34E834;
+}
+
+.profile .material-symbols-outlined {
+    margin-right: 20px;
+    color: #fff;
+}
+
+.profile:hover .material-symbols-outlined {
+    color: #000;
+}
