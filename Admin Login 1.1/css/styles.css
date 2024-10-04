@@ -1,0 +1,80 @@
+*{
+    font-family:"Poppins", sans-serif;
+}
+
+/* XKJ Header Styles */
+.hdr-xkj {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 10%;
+    background-color: rgb(0, 0, 0);
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+}
+
+.lgo-qwz {
+    text-decoration: none;
+}
+
+.img-lgo-qwz {
+    cursor: pointer;
+}
+
+.nav-prt .lst-mno {
+    list-style: none;
+    display: flex;
+    padding: 0;
+    margin: 0;
+}
+
+.nav-prt .lst-mno li {
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.nav-prt .lst-mno .lnk-abc {
+    font-family:"Poppins", sans-serif;
+    font-weight: lighter;
+    font-size: 16px;
+    color: #FFFFFF;
+    text-decoration: none;
+    transition: all 0.4s ease 0s;
+}
+
+.nav-prt .lst-mno .lnk-abc:hover {
+    color: #34E834;
+}
+
+.btn-grp-fgh {
+    display: flex;
+    gap: 10px;
+}
+
+.btn-grp-fgh .btn-ijk {
+    font-family:"Poppins", sans-serif;
+    font-weight: lighter;
+    font-size: 16px;
+    color: #FFFFFF;
+    padding: 9px 25px;
+    background-color: transparent;
+    border: 1px solid #34E834;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.4s ease-in-out;
+}
+
+.btn-grp-fgh .btn-ijk:hover {
+    background-color: #36F936;
+    color: #000;
+}
+
+/* Basic reset for header elements */
+.hdr-xkj * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
